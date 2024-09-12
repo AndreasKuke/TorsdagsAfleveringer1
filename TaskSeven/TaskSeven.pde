@@ -1,4 +1,4 @@
-int input = 20;
+int input = 20; //Change input here and in for()
 int inputHalf = input/2;
 
 for (input = 20; input > 0; input = input - 1) {
