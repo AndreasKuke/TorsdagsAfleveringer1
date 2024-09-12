@@ -20,7 +20,7 @@ void setup() {
   fill(20);
   rect(width/2, height/2, 100, 200);
 }
-
+//Movement of lights
 void draw() {
   switch(frameCount % 300) {
   case 1:
@@ -46,7 +46,7 @@ void draw() {
   }
   lights();
 }
-
+//Drawing of ellipses that are the light
 void lights() {
   fill(top);
   ellipse(width/2, height/2-70, 40, 40);
