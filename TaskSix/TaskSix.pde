@@ -32,7 +32,7 @@ void draw() {
     mid = black;
     bot = green;
     break;
-  case 200:
+  case 250:
     top = black;
     mid = yellow;
     bot = black;
