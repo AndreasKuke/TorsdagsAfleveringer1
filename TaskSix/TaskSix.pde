@@ -4,16 +4,10 @@ color top, mid, bot;
 
 void setup() {
   size (300, 300);
-  background(255);
-
   red = color(255, 0, 0);
   yellow = color(255, 255, 0);
   green = color (0, 255, 0);
   black = color (0, 0, 0);
-
-  top = black;
-  mid = black;
-  bot = black;
 
   //Drawing of traffic light
   rectMode(CENTER);
@@ -38,16 +32,12 @@ void draw() {
     mid = black;
     bot = green;
     break;
-  case 250:
+  case 200:
     top = black;
     mid = yellow;
     bot = black;
     break;
   }
-  lights();
-}
-//Drawing of ellipses that are the light
-void lights() {
   fill(top);
   ellipse(width/2, height/2-70, 40, 40);
 
